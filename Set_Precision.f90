@@ -1,4 +1,4 @@
-module Set_Precision
+module set_precision
 
 Implicit none
 
@@ -8,5 +8,5 @@ Integer,Parameter::Extended=Selected_Real_Kind(p=17,r=2000)
 Integer,Parameter::Quad=Selected_Real_Kind(p=26,r=200)
 Integer,Parameter:: prec=Double
 
-end module Set_Precision
+end module set_precision
 
